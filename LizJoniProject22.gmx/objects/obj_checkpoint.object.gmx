@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>/// set as checkpoint
 
-if (place_meeting(x,y,obj_player))
-{
+if (place_meeting(x,y,obj_player))  // if player collides with checkpoint,
+{                                   // make this checkpoint the current one
     global.checkpoint = id;
     global.checkpointx = x;
     global.checkpointy = y;

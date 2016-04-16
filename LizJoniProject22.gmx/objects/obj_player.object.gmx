@@ -27,22 +27,24 @@
             <kind>1</kind>
             <string>///Player Variables
 
-grav=0.2;
-hsp=0;
-vsp=0;
+grav=0.3;   // value of gravity pulling ya down
+hsp=0;      // horizontal speed
+vsp=0;      // vertical speed
 
+// defunct variables for old shifting system
 shapeshift = 0; // value between 0 and 42
 shapeshift_cd = 2/3;
 can_shift = true;
 can_shift_cd = false;
 
-acc = 0.3;
 
-jumpspeed= 8;
-movespeed = 4;
+acc = 0.5; //value of accelartion increasing rate of speed increase
+
+jumpspeed= 8; //the max speed of jumping
+movespeed = 6; // the max speed of moving
 
 
-if (global.checkpointR == room)
+if (global.checkpointR == room) //checkpoint system
 {
     x = global.checkpointx;
     y = global.checkpointy;
@@ -100,45 +102,49 @@ if (global.checkpointR == room)
             <kind>1</kind>
             <string>/// Player Movement
 
+
+
+//input keys
 right = keyboard_check(ord("D"))
 left = -keyboard_check(ord("A"))
 jump = keyboard_check_pressed(vk_space)
 
-move = left + right
+move = left + right // will be a value between -1 and 1
 
 
-hsp += move * acc
+hsp += move * acc // calculate horizonatal speed
 
-if hsp &gt; 0 hsp -= acc * log10(1 + hsp) ;
-if hsp &lt; 0 hsp += acc * log10(1 + abs(hsp));
+if hsp &gt; 0 hsp -= acc * log10(1 + hsp) ; // calculate drag on movement
+if hsp &lt; 0 hsp += acc * log10(1 + abs(hsp)); // both directions
 
-if(hsp &gt; movespeed) hsp = movespeed;
+if(hsp &gt; movespeed) hsp = movespeed; // cap max speed
 
 
-if (vsp &lt;10) vsp +=grav;
+if (vsp &lt;10) vsp +=grav; //if not at max grav then increase downward vsp
 
-if(place_meeting(x, y+2,obj_block)){
-    vsp = jump * -jumpspeed
+if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
+    vsp = jump * -jumpspeed // if so you can jump!
     }
     
-if !place_meeting(x, y+1, obj_block) acc = 0.1;
-else acc = 0.3;
+if !place_meeting(x, y+1, obj_block) acc =  0.2; // are you in the air?
+else acc = 0.5; // if so decrease the value of acceleration 
+                //(slows change in direction of movement)
 
-if(place_meeting(x+hsp,y,obj_block)){
-    while(!place_meeting(x+sign(hsp),y,obj_block)){
-        x +=sign(hsp)
+if(place_meeting(x+hsp,y,obj_block)){       //are we about to hit a will
+    while(!place_meeting(x+sign(hsp),y,obj_block)){ //move one pixel forward 
+        x +=sign(hsp)                               //until we are next to the wall
         }
-        hsp=0
+        hsp=0   // set speed to zero so we don't walk through wall
     }
 
-if(place_meeting(x,y+vsp,obj_block)){
+if(place_meeting(x,y+vsp,obj_block)){   // same deal but vertically
     while(!place_meeting(x,y+sign(vsp),obj_block)){
         y +=sign(vsp)
         }
         vsp=0
     } 
 
-x+=hsp
+x+=hsp  //add our speed to our literal co-ordinates.
 y+=vsp
 </string>
           </argument>

@@ -57,6 +57,7 @@ room_goto_next();</code>
   </views>
   <instances>
     <instance objName="obj_controller" x="32" y="64" name="inst_7B7A391B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_musicController" x="0" y="96" name="inst_B6BCF809" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

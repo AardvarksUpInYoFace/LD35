@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_song_1</sound>
+    <sound>sound\snd_song_2</sound>
+    <sound>sound\snd_jump</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Player">
       <sprite>sprites\spr_player_idle</sprite>
@@ -36,9 +40,12 @@
     <font>fonts\fnt_zerosMenu</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_controller</object>
-    <object>objects\obj_particles</object>
-    <object>objects\obj_menu</object>
+    <objects name="Controllers">
+      <object>objects\obj_menu</object>
+      <object>objects\obj_particles</object>
+      <object>objects\obj_controller</object>
+      <object>objects\obj_musicController</object>
+    </objects>
     <object>objects\obj_player</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_finishpoint</object>

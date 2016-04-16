@@ -38,7 +38,8 @@ can_shift = true;
 can_shift_cd = false;
 
 
-acc = 0.5; //value of accelartion increasing rate of speed increase
+acc_max = 0.7; //value of accelartion increasing rate of speed increase
+acc_jump = 0.3 // acc whilst jumping (restricts movement)
 
 jumpspeed= 8; //the max speed of jumping
 movespeed = 6; // the max speed of moving
@@ -112,6 +113,20 @@ jump = keyboard_check_pressed(vk_space)
 move = left + right // will be a value between -1 and 1
 
 
+if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
+    vsp = jump * -jumpspeed // if so you can jump!  
+    if jump == 1 audio_play_sound(snd_jump,3,false) // play jump sound
+    
+    }
+    
+
+    
+if !place_meeting(x, y+1, obj_block) acc =  acc_jump; // are you in the air?
+else acc = acc_max; // if so decrease the value of acceleration 
+                //(slows change in direction of movement)
+
+
+
 hsp += move * acc // calculate horizonatal speed
 
 if hsp &gt; 0 hsp -= acc * log10(1 + hsp) ; // calculate drag on movement
@@ -122,13 +137,6 @@ if(hsp &gt; movespeed) hsp = movespeed; // cap max speed
 
 if (vsp &lt;10) vsp +=grav; //if not at max grav then increase downward vsp
 
-if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
-    vsp = jump * -jumpspeed // if so you can jump!
-    }
-    
-if !place_meeting(x, y+1, obj_block) acc =  0.2; // are you in the air?
-else acc = 0.5; // if so decrease the value of acceleration 
-                //(slows change in direction of movement)
 
 if(place_meeting(x+hsp,y,obj_block)){       //are we about to hit a will
     while(!place_meeting(x+sign(hsp),y,obj_block)){ //move one pixel forward 

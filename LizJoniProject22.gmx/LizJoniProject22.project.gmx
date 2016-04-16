@@ -26,7 +26,10 @@
     <sprite>sprites\spr_blueDiamond</sprite>
     <sprite>sprites\spr_orangeDiamond</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgd_blue</background>
+    <background>background\bgd_orange</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_zerosTitle</font>

@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// initialise particle effects?
-/*
+
 global.part_blue = part_system_create();
 part_system_depth( global.part_blue, 50 );
 
@@ -56,8 +56,6 @@ orange_diamond_emitter = part_emitter_create(global.part_orange)
 part_emitter_region(global.part_orange, orange_diamond_emitter,0,room_width,0-20,0-20,ps_shape_rectangle,ps_distr_linear)
 part_emitter_stream(global.part_orange,orange_diamond_emitter,orange_diamond,-150)
 
-*/
-
 </string>
           </argument>
         </arguments>
@@ -82,24 +80,11 @@ part_emitter_stream(global.part_orange,orange_diamond_emitter,orange_diamond,-15
             <kind>1</kind>
             <string>/// Particles!
 
-/*
 
 //effect_create_below(ef_rain, 400, 500, 200, c_blue);
 
-if global.realm == 2 {
-
-        part_type_alpha1(blue_diamond, global.realm_value/60)
-        part_type_alpha1(orange_diamond, 1- global.realm_value/60)
-        
-        }
-
-if global.realm == 1 {
-
-        part_type_alpha1(blue_diamond, 1 - global.realm_value/60)
-        part_type_alpha1(orange_diamond,  global.realm_value/60)
-        
-        
-}
+part_type_alpha1(orange_diamond, global.realm_value/60 - 0.4)
+part_type_alpha1(blue_diamond,  0.6 - global.realm_value/60)
 </string>
           </argument>
         </arguments>

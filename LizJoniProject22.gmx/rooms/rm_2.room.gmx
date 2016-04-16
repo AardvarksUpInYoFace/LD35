@@ -63,7 +63,6 @@
     <instance objName="ob_blockUpUnoDos" x="480" y="1088" name="inst_338AFA29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ob_blockUpUnoDos" x="576" y="960" name="inst_A0FA37C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ob_blockUpUnoDos" x="704" y="768" name="inst_578ECAB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="704" y="576" name="inst_B81FC52E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_particles" x="32" y="64" name="inst_87FF9F9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="96" y="1440" name="inst_F4F3E464" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

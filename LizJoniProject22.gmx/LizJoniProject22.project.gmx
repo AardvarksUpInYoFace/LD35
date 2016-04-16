@@ -49,18 +49,13 @@
     </objects>
     <object>objects\obj_player</object>
     <object>objects\obj_checkpoint</object>
-    <object>objects\obj_block</object>
+    <object>objects\obj_finishpoint</object>
     <objects name="Blocks">
       <object>objects\obj_block</object>
       <objects name="Up Blocks">
         <object>objects\obj_blockUp</object>
         <object>objects\ob_blockUpUnoDos</object>
-      </objects>
-      <objects name="Down Blocks">
-        <object>objects\obj_blockDown</object>
-      </objects>
-      <objects name="Left Blocks">
-        <object>objects\obj_blockLeft</object>
+        <object>objects\obj_upBlockUnoUno</object>
       </objects>
       <objects name="Right Blocks">
         <object>objects\obj_blockRight</object>
@@ -68,12 +63,17 @@
         <object>objects\obj_blockRightUnoDoz</object>
       </objects>
     </objects>
+    <objects name="Main Menu Buttons">
+      <object>objects\obj_playButton</object>
+      <object>objects\obj_levelSelectButton</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
-    <room>rooms\rm_test</room>
-    <room>rooms\rm_2</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_levelSelect</room>
+    <room>rooms\rm_1</room>
+    <room>rooms\rm_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

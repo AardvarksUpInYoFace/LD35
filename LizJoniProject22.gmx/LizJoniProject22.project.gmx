@@ -30,8 +30,10 @@
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_controller</object>
     <object>objects\obj_player</object>
     <object>objects\obj_checkpoint</object>
+    <object>objects\obj_finishpoint</object>
     <objects name="Blocks">
       <object>objects\obj_block</object>
       <objects name="Up Blocks">
@@ -52,7 +54,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_init</room>
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

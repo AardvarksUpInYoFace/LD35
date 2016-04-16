@@ -6,25 +6,50 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_blockHozUnoUno</sprite>
-    <sprite>sprites\spr_blockHozUnoDoz</sprite>
-    <sprite>sprites\spr_blockVert</sprite>
-    <sprite>sprites\spr_player_idle</sprite>
-    <sprite>sprites\spr_checkpoint</sprite>
-    <sprite>sprites\spr_finishpoint</sprite>
-    <sprite>sprites\spr_blockVertUnoDos</sprite>
+    <sprites name="Player">
+      <sprite>sprites\spr_player_idle</sprite>
+    </sprites>
+    <sprites name="Blocks">
+      <sprites name="Up Spirtes">
+        <sprite>sprites\spr_blockUpUnoUno</sprite>
+        <sprite>sprites\spr_blockUpUnoDos</sprite>
+      </sprites>
+      <sprites name="Right Sprites">
+        <sprite>sprites\spr_blockRightUnoUno</sprite>
+        <sprite>sprites\spr_blockRightUnoDoz</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Miscellaneous">
+      <sprite>sprites\spr_finishpoint</sprite>
+      <sprite>sprites\spr_checkpoint</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_block</object>
-    <object>objects\obj_blockHoz</object>
-    <object>objects\obj_blockVert</object>
-    <object>objects\obj_blockHozUnoUno</object>
-    <object>objects\obj_blockHozUnoDoz</object>
     <object>objects\obj_checkpoint</object>
-    <object>objects\ob_blockVertUnoDos</object>
+    <objects name="Blocks">
+      <object>objects\obj_block</object>
+      <objects name="Up Blocks">
+        <object>objects\obj_blockUp</object>
+        <object>objects\ob_blockUpUnoDos</object>
+      </objects>
+      <objects name="Down Blocks">
+        <object>objects\obj_blockDown</object>
+      </objects>
+      <objects name="Left Blocks">
+        <object>objects\obj_blockLeft</object>
+      </objects>
+      <objects name="Right Blocks">
+        <object>objects\obj_blockRight</object>
+        <object>objects\obj_blockRightUnoUno</object>
+        <object>objects\obj_blockRightUnoDoz</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

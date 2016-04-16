@@ -25,13 +25,55 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>/// Shapeshift Control
+
+/*
+if keyboard_check(ord("K")){
+    if image_index != 41 {
+    if obj_player.can_shift == true{
+        image_index+=1
+    }
+}
+}
+
+if !keyboard_check(ord("K")) &amp;&amp; image_index != 0{
+    image_index-=1/2
+}
+
+*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///Collision with player adjustments
 
 
 if(instance_place(x,y,obj_player)){
+    if obj_player.x &gt; x +16
     with(obj_player){
         x +=1
         }
+    if obj_player.x &lt; x - 16{
+    with(obj_player){
+        x -=1
+        }
+    }
     }
     
 if(instance_place(x,y,obj_player)){
@@ -39,16 +81,13 @@ if(instance_place(x,y,obj_player)){
     with(obj_player){
         y -=1
         }
-        }
-    if obj_player.y &gt; y -16 with obj_player y-=1;
     }
-        
+    if obj_player.y &gt; y +16 with( obj_player){y+=1}
+    }
 </string>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="5" enumb="76">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -65,35 +104,10 @@ if(instance_place(x,y,obj_player)){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///To realm 2
+            <string>/// Shapeshift Control Mk2
 
-if image_index != 41 image_index+=1
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="5" enumb="75">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// To realm 1
-
-
-if image_index != 1 image_index-=1
+if obj_player.realm == 1 &amp;&amp; image_index != 0 {image_index -=1}
+if obj_player.realm == 2 &amp;&amp; image_index != 41 {image_index +=1}
 </string>
           </argument>
         </arguments>

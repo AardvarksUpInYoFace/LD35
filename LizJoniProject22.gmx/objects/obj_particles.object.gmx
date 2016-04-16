@@ -40,7 +40,7 @@ part_type_life(blue_diamond,room_speed *1000, room_speed *1000)
 
 blue_diamond_emitter = part_emitter_create(global.part_blue)
 part_emitter_region(global.part_blue, blue_diamond_emitter,0,room_width,room_height +50,room_height+50,ps_shape_rectangle,ps_distr_linear)
-part_emitter_stream(global.part_blue,blue_diamond_emitter,blue_diamond,-150)
+part_emitter_stream(global.part_blue,blue_diamond_emitter,blue_diamond,-110)
 
 global.part_orange = part_system_create();
 part_system_depth( global.part_orange, 51 );
@@ -54,7 +54,7 @@ part_type_life(orange_diamond,room_speed *1000, room_speed *1000)
 
 orange_diamond_emitter = part_emitter_create(global.part_orange)
 part_emitter_region(global.part_orange, orange_diamond_emitter,0,room_width,0-20,0-20,ps_shape_rectangle,ps_distr_linear)
-part_emitter_stream(global.part_orange,orange_diamond_emitter,orange_diamond,-150)
+part_emitter_stream(global.part_orange,orange_diamond_emitter,orange_diamond,-110)
 
 </string>
           </argument>

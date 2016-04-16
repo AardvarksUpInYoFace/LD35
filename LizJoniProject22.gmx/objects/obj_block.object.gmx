@@ -67,7 +67,7 @@ if(instance_place(x,y,obj_player)){
             <kind>1</kind>
             <string>///To realm 2
 
-if image_index != 2 image_index+=1
+if image_index != 41 image_index+=1
 </string>
           </argument>
         </arguments>

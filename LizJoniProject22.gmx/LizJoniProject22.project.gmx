@@ -12,6 +12,7 @@
     <sprite>sprites\spr_player_idle</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
     <sprite>sprites\spr_finishpoint</sprite>
+    <sprite>sprites\spr_blockVertUnoDos</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +24,7 @@
     <object>objects\obj_blockHozUnoUno</object>
     <object>objects\obj_blockHozUnoDoz</object>
     <object>objects\obj_checkpoint</object>
+    <object>objects\ob_blockVertUnoDos</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

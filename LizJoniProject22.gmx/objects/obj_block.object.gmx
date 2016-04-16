@@ -117,7 +117,7 @@ if(instance_place(x,y,obj_player)){
 
 if global.realm == 1 &amp;&amp; image_index != 0 {image_index -=1} 
 //if we are in "world" 1 then decrease image_index
-if global.realm == 2 &amp;&amp; image_index != 41 {image_index +=1} 
+if global.realm == 2 &amp;&amp; image_index != 59 {image_index +=1} 
 // if we are in "world 2 incerase image index
 </string>
           </argument>

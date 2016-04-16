@@ -33,6 +33,8 @@ draw_set_font(fnt_zerosTitle)
 draw_text(500,100,"Phase Shift")    //sets draw stuff then writes Phase Shift
 draw_set_font(fnt_zerosMenu)
 draw_text(500, 400, "Play");
+draw_text(500,500, "Level Select")
+draw_text(500,600, "Quit");
 
 </string>
           </argument>

@@ -15,20 +15,27 @@
       <sprite>sprites\spr_player_idle</sprite>
       <sprite>sprites\spr_player_jump</sprite>
       <sprite>sprites\spr_player_land</sprite>
+      <sprite>sprites\spr_player_victory</sprite>
+      <sprite>sprites\spr_player_entry</sprite>
     </sprites>
     <sprites name="Blocks">
       <sprites name="Up Spirtes">
         <sprite>sprites\spr_blockUpUnoUno</sprite>
         <sprite>sprites\spr_blockUpUnoDos</sprite>
+        <sprite>sprites\spr_rev_blockUpUnoDos</sprite>
+        <sprite>sprites\spr_rev_blockUpUnoUno</sprite>
       </sprites>
       <sprites name="Right Sprites">
         <sprite>sprites\spr_blockRightUnoUno</sprite>
         <sprite>sprites\spr_blockRightUnoDoz</sprite>
+        <sprite>sprites\spr_rev_blockRightUnoDos</sprite>
       </sprites>
     </sprites>
     <sprites name="Miscellaneous">
       <sprite>sprites\spr_finishpoint</sprite>
       <sprite>sprites\spr_checkpoint</sprite>
+      <sprite>sprites\spr_blockDarkLight</sprite>
+      <sprite>sprites\spr_blockLightDark</sprite>
     </sprites>
     <sprite>sprites\spr_blueDiamond</sprite>
     <sprite>sprites\spr_orangeDiamond</sprite>

@@ -82,6 +82,7 @@
     <instance objName="obj_blockDarkLight" x="1344" y="1168" name="inst_C45241B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="1344" y="1232" name="inst_75A3A041" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="1152" y="864" name="inst_2EB3110F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bgpillars" x="304" y="511" name="inst_87635CDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

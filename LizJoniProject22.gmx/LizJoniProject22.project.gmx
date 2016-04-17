@@ -164,6 +164,8 @@
       <sprite>sprites\spr_blockDarkLight</sprite>
       <sprite>sprites\spr_blockLightDark</sprite>
       <sprite>sprites\spr_background</sprite>
+      <sprite>sprites\spr_keyWAD</sprite>
+      <sprite>sprites\spr_keyK</sprite>
     </sprites>
     <sprite>sprites\spr_blueDiamond</sprite>
     <sprite>sprites\spr_orangeDiamond</sprite>
@@ -172,6 +174,7 @@
       <sprite>sprites\spr_levelSelect</sprite>
       <sprite>sprites\spr_quit</sprite>
     </sprites>
+    <sprite>sprites\sprite142</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_blue</background>
@@ -234,6 +237,11 @@
     <objects name="Group_refraction">
       <object>objects\obj_controller_refraction</object>
       <object>objects\obj_player_refraction</object>
+    </objects>
+    <objects name="Misc">
+      <object>objects\obj_keyWAD</object>
+      <object>objects\obj_keyK</object>
+      <object>objects\obj_bgpillars</object>
     </objects>
   </objects>
   <rooms name="rooms">

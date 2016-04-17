@@ -11,6 +11,34 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
+        <id>541</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sprite_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>spr_player_entry</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -27,7 +55,7 @@
             <kind>1</kind>
             <string>///Player Variables
 
-grav=0.3;   // value of gravity pulling ya down
+grav=0;   // value of gravity pulling ya down
 hsp=0;      // horizontal speed
 vsp=0;      // vertical speed
 
@@ -42,8 +70,10 @@ acc_max = 3; //value of accelartion increasing rate of speed increase
 acc_min = 2;
 acc_jump = 1 // acc whilst jumping (restricts movement)
 
-jumpspeed= 8; //the max speed of jumping
+jumpspeed= 11; //the max speed of jumping
 movespeed = 7; // the max speed of moving
+
+level_end = false;
 
 
 if (global.checkpointR == room) //checkpoint system
@@ -55,34 +85,6 @@ if (global.checkpointR == room) //checkpoint system
 
 
 </string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>541</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_sprite_set</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>5</kind>
-            <sprite>spr_player_land</sprite>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>59</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -135,17 +137,16 @@ if (global.checkpointR == room) //checkpoint system
 //input keys
 right = keyboard_check(ord("D"))
 left = -keyboard_check(ord("A"))
-jump = keyboard_check_pressed(vk_space)
+jump = keyboard_check_pressed(ord("W"))
+
+if image_angle == 0 {
 
 move = left + right // will be a value between -1 and 1
-
 
 if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
     vsp = jump * -jumpspeed // if so you can jump!  
     if jump == 1 audio_play_sound(snd_jump,3,false) // play jump sound
     }
-    
-
     
 if !place_meeting(x, y+1, obj_block) acc =  acc_jump; // are you in the air?
 
@@ -155,17 +156,17 @@ else {
 
 
 
+if(place_meeting(x, y+2,obj_block)){ //whilst on ground
 hsp += move * acc // calculate horizonatal speed
-
-if(place_meeting(x, y+2,obj_block)){ 
 if hsp &gt; 0 hsp -= acc_min * log10(1+hsp) // calculate drag on movement
 if hsp &lt; 0 hsp += acc_min * log10(1+abs(hsp))// both directions
 }
 
 
-if(!place_meeting(x, y+2,obj_block)){ 
-if hsp &gt; 0 hsp -= acc_jump/4  * log10(1+(hsp * 4)) // calculate drag on movement
-if hsp &lt; 0 hsp += acc_jump/4 * log10(1+(abs(hsp)* 4))// both directions whilst in the air
+if(!place_meeting(x, y+2,obj_block)){ //whilst in air
+hsp += move * movespeed/3 // calculate horizonatal speed
+//if hsp &gt; 0 hsp -= acc_jump/4  * log10(1+(hsp * 1/2)) // calculate drag on movement
+//if hsp &lt; 0 hsp += acc_jump/4 * log10(1+(abs(hsp)* 1/2))// both directions whilst in the air
 }
 
 
@@ -207,7 +208,7 @@ else{
     if hsp &lt; 0 hsp = current_speed + (move* movespeed) + acc_jump 
     }
 */
-
+}
 </string>
           </argument>
         </arguments>
@@ -310,22 +311,37 @@ else
             <kind>1</kind>
             <string>/// Animation :D
 
+if sprite_index == spr_player_entry &amp;&amp; image_index == 59{
+     sprite_index = spr_player_jump
+     grav=0.6;
+}
 
+else {
+
+if sprite_index == spr_player_entry image_angle += 6;
+
+if level_end == false &amp;&amp; sprite_index != spr_player_entry {
+
+image_angle = 0;
 
 if(place_meeting(x, y+2,obj_block)) &amp;&amp; sprite_index == spr_player_jump{ // are you touching the floor?
 sprite_index = spr_player_land
 image_speed = 1;
 }
 
-if image_index == 59 image_speed = 0;
+if image_index == 20 image_speed = 0;
 
 if(!place_meeting(x, y+7,obj_block)){
     image_speed = 1
     sprite_index = spr_player_jump
     if image_index == 19 image_speed = 0
     }
+}
+}
 
+if sprite_index == spr_player_victory image_angle += 6;
 
+if sprite_index == spr_player_victory &amp;&amp; image_index == 59 room_goto_next();
 </string>
           </argument>
         </arguments>

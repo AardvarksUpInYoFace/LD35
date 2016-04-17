@@ -27,13 +27,21 @@
             <kind>1</kind>
             <string>/// finish this level
 
-if (place_meeting(x,y,obj_player)){
-
-room_goto_next() // if you collide with finish go to next level.
+if (place_meeting(x,y,obj_player)) &amp;&amp; obj_player.level_end == false{
 
 audio_play_sound(snd_checkpoint,12,false); // play sound
+    image_alpha = 0;
+
+    with(obj_player){
+        level_end = true
+        sprite_index = spr_player_victory
+        image_speed =1
+    
+    }
 
 }
+
+
 </string>
           </argument>
         </arguments>

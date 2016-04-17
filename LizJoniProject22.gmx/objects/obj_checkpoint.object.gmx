@@ -60,6 +60,7 @@ if (place_meeting(x,y,obj_player))&amp;&amp; can_set == true  // if player colli
     global.checkpointx = x;
     global.checkpointy = y;
     global.checkpointR = room;
+    image_alpha = 0;
     
     audio_play_sound(snd_checkpoint,12,false); // play sound
 }

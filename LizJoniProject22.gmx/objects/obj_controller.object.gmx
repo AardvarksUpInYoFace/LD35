@@ -61,11 +61,11 @@ if global.realm == 1 {
     if keyboard_check_pressed(ord("K")) global.realm =2     // move to second "world"
     }
 
-if  global.realm == 2 {
+else if  global.realm == 2 {
 
     if global.realm_value != 60 global.realm_value +=1    // transition value
                                                     // decreases until 0 global.realm =1 
-            if keyboard_check_pressed(ord("L")) global.realm =1     // move to first "world"
+    if keyboard_check_pressed(ord("K")) global.realm =1     // move to first "world"
     }
     
   

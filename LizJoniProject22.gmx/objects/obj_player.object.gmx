@@ -276,7 +276,7 @@ if !keyboard_check(ord("K")) {
             <kind>1</kind>
             <string>///  Player Death
 
-if y&gt; 1536 {
+if y&gt; obj_deathController.y {
 
 if (global.checkpointR != 0)
 {

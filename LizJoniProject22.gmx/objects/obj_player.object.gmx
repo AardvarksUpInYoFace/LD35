@@ -77,6 +77,8 @@ movespeed = 7; // the max speed of moving
 
 level_end = false;
 
+is_jumping = false;
+
 
 if (global.checkpointR == room) //checkpoint system
 {
@@ -146,26 +148,24 @@ move = left + right // will be a value between -1 and 1
 
 if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
     vsp = jump * -jumpspeed // if so you can jump!  
-    if jump == 1 audio_play_sound(snd_jump,3,false) // play jump sound
-    }
+    if jump == 1 {
+        audio_play_sound(snd_jump,3,false) // play jump sound
+        is_jumping = true;
+        }
     
-if !place_meeting(x, y+1, obj_block) acc =  acc_jump; // are you in the air?
-
-else {
+    hsp += move * movespeed // calculate horizonatal speed
+    if hsp &gt; 0 hsp -= acc_min * log10(1+hsp) // calculate drag on movement
+    if hsp &lt; 0 hsp += acc_min * log10(1+abs(hsp))// both directions    
+        
     acc = acc_max; // if so decrease the value of acceleration 
     }              //(slows change in direction of movement)
+    
+    
+if !place_meeting(x, y+1, obj_block) { // are you in the air?
 
-
-
-if(place_meeting(x, y+2,obj_block)){ //whilst on ground
-hsp += move * acc // calculate horizonatal speed
-if hsp &gt; 0 hsp -= acc_min * log10(1+hsp) // calculate drag on movement
-if hsp &lt; 0 hsp += acc_min * log10(1+abs(hsp))// both directions
-}
-
-
-if(!place_meeting(x, y+2,obj_block)){ //whilst in air
-hsp += move * movespeed/3 // calculate horizonatal speed
+    acc =  acc_jump;
+    hsp += move * movespeed/3 // calculate horizonatal speed
+    
 //if hsp &gt; 0 hsp -= acc_jump/4  * log10(1+(hsp * 1/2)) // calculate drag on movement
 //if hsp &lt; 0 hsp += acc_jump/4 * log10(1+(abs(hsp)* 1/2))// both directions whilst in the air
 }
@@ -196,19 +196,6 @@ if(place_meeting(x,y+vsp,obj_block)){   // same deal but vertically
 x+=hsp  //add our speed to our literal co-ordinates.
 y+=vsp
 
-/*
-if (place_meeting(x, y+2,obj_block)) {
-hsp = move * movespeed // calculate horizonatal speed  
-current_speed = hsp
-
-}
- 
-else{
-    if hsp &gt; 0 hsp = current_speed + (move * movespeed) - acc_jump
-    if hsp == 0 hsp = (move* movespeed)
-    if hsp &lt; 0 hsp = current_speed + (move* movespeed) + acc_jump 
-    }
-*/
 }
 </string>
           </argument>
@@ -342,7 +329,7 @@ if(!place_meeting(x, y+7,obj_block)){
 
 if sprite_index == spr_player_victory image_angle += 6;
 
-if sprite_index == spr_player_victory &amp;&amp; image_index == 59 room_goto_next();
+if (sprite_index == spr_player_victory &amp;&amp; image_index == 59) {room_goto_next()}
 </string>
           </argument>
         </arguments>

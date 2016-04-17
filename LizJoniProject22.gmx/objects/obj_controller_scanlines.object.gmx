@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -77,11 +77,11 @@ if shader_enabled shader_set(shd_scanlines);
     if full_screen_effect draw_surface(surf,0,0);
 shader_reset();
 
-draw_text(0,0,"Real FPS: "+string(fps_real));
+//draw_text(0,0,"Real FPS: "+string(fps_real));
 
-draw_text(0,60,"Spacebar to toggle shader");
-draw_text(0,72,"Shift key to toggle fullscreen or sprite only");
-draw_text(0,84,"Escape key to exit");
+//draw_text(0,60,"Spacebar to toggle shader");
+//draw_text(0,72,"Shift key to toggle fullscreen or sprite only");
+//draw_text(0,84,"Escape key to exit");
 </string>
           </argument>
         </arguments>

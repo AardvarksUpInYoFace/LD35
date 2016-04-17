@@ -55,6 +55,8 @@
             <kind>1</kind>
             <string>///Player Variables
 
+audio_play_sound(snd_win,3,false);
+
 grav=0;   // value of gravity pulling ya down
 hsp=0;      // horizontal speed
 vsp=0;      // vertical speed

@@ -32,6 +32,11 @@
     </sprites>
     <sprite>sprites\spr_blueDiamond</sprite>
     <sprite>sprites\spr_orangeDiamond</sprite>
+    <sprites name="Menu Stuff">
+      <sprite>sprites\spr_play</sprite>
+      <sprite>sprites\spr_levelSelect</sprite>
+      <sprite>sprites\spr_quit</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgd_blue</background>
@@ -69,6 +74,7 @@
     <objects name="Main Menu Buttons">
       <object>objects\obj_playButton</object>
       <object>objects\obj_levelSelectButton</object>
+      <object>objects\obj_quitButton</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -230,66 +230,6 @@
       <object>objects\obj_controller_brightness_contrast</object>
       <object>objects\obj_player_brightness_contrast</object>
     </objects>
-    <objects name="Group_emboss">
-      <object>objects\obj_controller_emboss</object>
-      <object>objects\obj_player_emboss</object>
-    </objects>
-    <objects name="Group_gaussian_blur">
-      <object>objects\obj_controller_gaussian_blur</object>
-      <object>objects\obj_player_gaussian_blur</object>
-    </objects>
-    <objects name="Group_greyscale">
-      <object>objects\obj_controller_greyscale</object>
-      <object>objects\obj_player_greyscale</object>
-    </objects>
-    <objects name="Group_invert">
-      <object>objects\obj_controller_invert</object>
-      <object>objects\obj_player_invert</object>
-    </objects>
-    <objects name="Group_LED_effect">
-      <object>objects\obj_controller_LED_effect</object>
-      <object>objects\obj_player_LED_effect</object>
-    </objects>
-    <objects name="Group_magnify">
-      <object>objects\obj_controller_magnify</object>
-      <object>objects\obj_player_magnify</object>
-    </objects>
-    <objects name="Group_mozaic">
-      <object>objects\obj_controller_mosaic</object>
-      <object>objects\obj_player_mosaic</object>
-    </objects>
-    <objects name="Group_posterization">
-      <object>objects\obj_controller_posterization</object>
-      <object>objects\obj_player_posterization</object>
-    </objects>
-    <objects name="Group_ripple">
-      <object>objects\obj_controller_ripple</object>
-      <object>objects\obj_player_ripple</object>
-    </objects>
-    <objects name="Group_sepia">
-      <object>objects\obj_controller_sepia</object>
-      <object>objects\obj_player_sepia</object>
-    </objects>
-    <objects name="Group_shockwave">
-      <object>objects\obj_controller_shockwave</object>
-      <object>objects\obj_player_shockwave</object>
-    </objects>
-    <objects name="Group_sketch">
-      <object>objects\obj_controller_sketch</object>
-      <object>objects\obj_player_sketch</object>
-    </objects>
-    <objects name="Group_thermal">
-      <object>objects\obj_controller_thermal</object>
-      <object>objects\obj_player_thermal</object>
-    </objects>
-    <objects name="Group_wave">
-      <object>objects\obj_controller_wave</object>
-      <object>objects\obj_player_wave</object>
-    </objects>
-    <objects name="Group_radial_blur">
-      <object>objects\obj_controller_radial_blur</object>
-      <object>objects\obj_player_radial_blur</object>
-    </objects>
     <objects name="Group_refraction">
       <object>objects\obj_controller_refraction</object>
       <object>objects\obj_player_refraction</object>
@@ -297,7 +237,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
-    <room>rooms\rm_scanlines</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_1</room>

@@ -24,11 +24,135 @@
         <sprite>sprites\spr_blockUpUnoDos</sprite>
         <sprite>sprites\spr_rev_blockUpUnoDos</sprite>
         <sprite>sprites\spr_rev_blockUpUnoUno</sprite>
+        <sprites name="Masks">
+          <sprite>sprites\spr_mask_blockUpUnoDoz0</sprite>
+          <sprite>sprites\dpr_mask_blockUpUnoDoz1</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz2</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz3</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz4</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz5</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz6</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz7</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz8</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz9</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz10</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz11</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz12</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz13</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz14</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz15</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz16</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz17</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz18</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz19</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz20</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz21</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz22</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz23</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz24</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz25</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz26</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz27</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz28</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz29</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz30</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz31</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz32</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz33</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz34</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz35</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz36</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz37</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz38</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz39</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz40</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz41</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz42</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz43</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz44</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz45</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz46</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz47</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz48</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz49</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz50</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz51</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz52</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz53</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz54</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz55</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz56</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz57</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz58</sprite>
+          <sprite>sprites\spr_mask_blockUpUnoDoz59</sprite>
+        </sprites>
       </sprites>
       <sprites name="Right Sprites">
         <sprite>sprites\spr_blockRightUnoUno</sprite>
         <sprite>sprites\spr_blockRightUnoDoz</sprite>
         <sprite>sprites\spr_rev_blockRightUnoDos</sprite>
+        <sprites name="Masks">
+          <sprite>sprites\spr_mask_blockRightUnoDoz0</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz1</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz2</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz3</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz4</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz5</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz6</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz7</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz8</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz9</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz10</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz11</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz12</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz13</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz14</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz15</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz16</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz17</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz18</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz19</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz20</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz21</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz22</sprite>
+          <sprite>sprites\spr_mask_blockRighUnoDoz23</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz24</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz25</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz26</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz27</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz28</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz29</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz30</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz31</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz32</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz33</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz34</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz35</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz36</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz37</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz38</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz39</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz40</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz41</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz42</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz43</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz44</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz45</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz46</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz47</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz48</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz49</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz50</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz51</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz52</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz53</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz54</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz55</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz56</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz57</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz58</sprite>
+          <sprite>sprites\spr_mask_blockRightUnoDoz59</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="Miscellaneous">
@@ -67,6 +191,8 @@
     <object>objects\obj_finishpoint</object>
     <objects name="Blocks">
       <object>objects\obj_block</object>
+      <object>objects\obj_blockLightDark</object>
+      <object>objects\obj_blockDarkLight</object>
       <objects name="Up Blocks">
         <object>objects\obj_blockUp</object>
         <object>objects\ob_blockUpUnoDos</object>

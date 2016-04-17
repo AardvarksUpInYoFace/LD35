@@ -3,8 +3,8 @@
   <caption></caption>
   <width>2048</width>
   <height>1536</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -64,6 +64,23 @@
     <instance objName="obj_upBlockUnoUno" x="672" y="1120" name="inst_237F9EC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="864" y="1120" name="inst_2E94CAD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_finishpoint" x="1344" y="736" name="inst_14218E13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1056" y="1040" name="inst_AC07FC0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1056" y="1104" name="inst_49047DA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1056" y="1168" name="inst_330BBA1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1056" y="1232" name="inst_A90C9173" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1152" y="944" name="inst_72C1B21F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1152" y="1008" name="inst_D6B037C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1152" y="1072" name="inst_B8EB247E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1152" y="1136" name="inst_B05D819B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1152" y="1200" name="inst_8535CB43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1152" y="1264" name="inst_A2FEAADB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1344" y="848" name="inst_F4EE1E68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1344" y="912" name="inst_3DBE83A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1344" y="976" name="inst_827C38D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1344" y="1040" name="inst_7FEC8B64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1344" y="1104" name="inst_426F6606" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1344" y="1168" name="inst_C45241B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockDarkLight" x="1344" y="1232" name="inst_75A3A041" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

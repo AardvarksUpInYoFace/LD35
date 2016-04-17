@@ -3,7 +3,7 @@
   <spriteName>spr_player_idle</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-12</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -40,7 +40,7 @@ can_shift_cd = false;
 // defunct(ish) acceleration variables
 acc_max = 3; //value of accelartion increasing rate of speed increase
 acc_min = 2;
-acc_jump = 0.4 // acc whilst jumping (restricts movement)
+acc_jump = 1 // acc whilst jumping (restricts movement)
 
 jumpspeed= 8; //the max speed of jumping
 movespeed = 7; // the max speed of moving
@@ -147,15 +147,26 @@ if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
     
 
     
-//if !place_meeting(x, y+1, obj_block) acc =  acc_jump; // are you in the air?
-//else 
-acc = acc_max; // if so decrease the value of acceleration 
-                //(slows change in direction of movement)
+if !place_meeting(x, y+1, obj_block) acc =  acc_jump; // are you in the air?
+
+else {
+    acc = acc_max; // if so decrease the value of acceleration 
+    }              //(slows change in direction of movement)
+
+
 
 hsp += move * acc // calculate horizonatal speed
 
+if(place_meeting(x, y+2,obj_block)){ 
 if hsp &gt; 0 hsp -= acc_min * log10(1+hsp) // calculate drag on movement
 if hsp &lt; 0 hsp += acc_min * log10(1+abs(hsp))// both directions
+}
+
+
+if(!place_meeting(x, y+2,obj_block)){ 
+if hsp &gt; 0 hsp -= acc_jump/4  * log10(1+(hsp * 4)) // calculate drag on movement
+if hsp &lt; 0 hsp += acc_jump/4 * log10(1+(abs(hsp)* 4))// both directions whilst in the air
+}
 
 
 if(hsp &gt; movespeed) hsp = movespeed; // cap max speed
@@ -306,7 +317,7 @@ sprite_index = spr_player_land
 image_speed = 1;
 }
 
-if image_index == 59 sprite_index = spr_player_idle image_speed = 0;
+if image_index == 59 image_speed = 0;
 
 if(!place_meeting(x, y+7,obj_block)){
     image_speed = 1

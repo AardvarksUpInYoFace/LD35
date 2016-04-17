@@ -83,8 +83,8 @@ part_emitter_stream(global.part_orange,orange_diamond_emitter,orange_diamond,-11
 
 //effect_create_below(ef_rain, 400, 500, 200, c_blue);
 
-part_type_alpha1(orange_diamond, global.realm_value/60 - 0.2)
-part_type_alpha1(blue_diamond,  0.8 - global.realm_value/60)
+part_type_alpha1(orange_diamond, global.realm_value/60 - 0.5)
+part_type_alpha1(blue_diamond,  0.5 - global.realm_value/60)
 </string>
           </argument>
         </arguments>

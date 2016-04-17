@@ -163,6 +163,7 @@
       <sprite>sprites\spr_checkpoint</sprite>
       <sprite>sprites\spr_blockDarkLight</sprite>
       <sprite>sprites\spr_blockLightDark</sprite>
+      <sprite>sprites\spr_background</sprite>
     </sprites>
     <sprite>sprites\spr_blueDiamond</sprite>
     <sprite>sprites\spr_orangeDiamond</sprite>

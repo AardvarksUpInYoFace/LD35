@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_controller" x="96" y="640" name="inst_B39BEFD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="128" y="672" name="inst_A1F98AF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="128" y="739" name="inst_A1F98AF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="128" y="768" name="inst_F4F3E464" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockRightUnoUno" x="32" y="832" name="inst_B7A5AB92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockRightUnoUno" x="96" y="832" name="inst_342DAA44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -209,6 +209,7 @@
     <instance objName="obj_rev_blockUpUnoUno" x="1459" y="1180" name="inst_C2498D1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="1022" y="1389" name="inst_19EC50A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ob_blockUpUnoDos" x="841" y="1486" name="inst_F2860668" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu" x="305" y="720" name="inst_54F05DEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

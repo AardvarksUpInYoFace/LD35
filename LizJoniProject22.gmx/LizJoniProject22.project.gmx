@@ -27,6 +27,9 @@
         <sprite>sprites\spr_blockUpUnoDos</sprite>
         <sprite>sprites\spr_rev_blockUpUnoDos</sprite>
         <sprite>sprites\spr_rev_blockUpUnoUno</sprite>
+        <sprite>sprites\spr_rev_blockSpike</sprite>
+        <sprite>sprites\spr_blockSpike</sprite>
+        <sprite>sprites\spr_blockBounce</sprite>
         <sprites name="Masks">
           <sprite>sprites\spr_mask_blockUpUnoDoz0</sprite>
           <sprite>sprites\dpr_mask_blockUpUnoDoz1</sprite>
@@ -94,6 +97,7 @@
         <sprite>sprites\spr_blockRightUnoUno</sprite>
         <sprite>sprites\spr_blockRightUnoDoz</sprite>
         <sprite>sprites\spr_rev_blockRightUnoDos</sprite>
+        <sprite>sprites\spr_phasePlatform</sprite>
         <sprites name="Masks">
           <sprite>sprites\spr_mask_blockRightUnoDoz0</sprite>
           <sprite>sprites\spr_mask_blockRightUnoDoz1</sprite>

@@ -72,8 +72,8 @@ acc_max = 3; //value of accelartion increasing rate of speed increase
 acc_min = 2;
 acc_jump = 1 // acc whilst jumping (restricts movement)
 
-jumpspeed= 11; //the max speed of jumping
-movespeed = 7; // the max speed of moving
+jumpspeed= 12; //the max speed of jumping
+movespeed = 8; // the max speed of moving
 
 level_end = false;
 
@@ -152,8 +152,11 @@ if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
         audio_play_sound(snd_jump,3,false) // play jump sound
         is_jumping = true;
         }
+        }
+   
+    hsp = move * movespeed // calculate horizonatal speed
     
-    hsp += move * movespeed // calculate horizonatal speed
+ /*   
     if hsp &gt; 0 hsp -= acc_min * log10(1+hsp) // calculate drag on movement
     if hsp &lt; 0 hsp += acc_min * log10(1+abs(hsp))// both directions    
         
@@ -174,7 +177,7 @@ if !place_meeting(x, y+1, obj_block) { // are you in the air?
 if(hsp &gt; movespeed) hsp = movespeed; // cap max speed
 if(hsp &lt; -movespeed) hsp = - movespeed;
 
-
+*/
 
 if (vsp &lt;10) vsp +=grav; //if not at max grav then increase downward vsp
 

@@ -66,28 +66,28 @@ if !keyboard_check(ord("K")) &amp;&amp; image_index != 0{
             <string>///Collision with player adjustments
 
 if(instance_place(x,y,obj_player)){
-    if obj_player.x &lt; x-30{
+    if obj_player.x &lt; x-35{
     with(obj_player){
         x -=1.3125
         }
         }
 }
 if(instance_place(x,y,obj_player)){
-    if obj_player.x &gt; x+30{
+    if obj_player.x &gt; x+35{
         with(obj_player){
         x +=1.3125
         }
         }
 }
 if(instance_place(x,y,obj_player)){
- if obj_player.y &lt; y-30{
+ if obj_player.y &lt; y-16{
     with(obj_player){
         y -=1.3125
         }
         }
 }
 if(instance_place(x,y,obj_player)){
-    if obj_player.y &gt; y+30{
+    if obj_player.y &gt; y+16{
         with(obj_player){
         y +=1.3125
         }

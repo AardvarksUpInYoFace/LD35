@@ -2,14 +2,14 @@
 <sprite>
   <type>0</type>
   <xorig>40</xorig>
-  <yorigin>45</yorigin>
+  <yorigin>64</yorigin>
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>-1</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>8</bbox_left>
   <bbox_right>71</bbox_right>
-  <bbox_top>0</bbox_top>
+  <bbox_top>10</bbox_top>
   <bbox_bottom>89</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -40,15 +40,5 @@
     <frame index="17">images\spr_player_jump_17.png</frame>
     <frame index="18">images\spr_player_jump_18.png</frame>
     <frame index="19">images\spr_player_jump_19.png</frame>
-    <frame index="20">images\spr_player_jump_20.png</frame>
-    <frame index="21">images\spr_player_jump_21.png</frame>
-    <frame index="22">images\spr_player_jump_22.png</frame>
-    <frame index="23">images\spr_player_jump_23.png</frame>
-    <frame index="24">images\spr_player_jump_24.png</frame>
-    <frame index="25">images\spr_player_jump_25.png</frame>
-    <frame index="26">images\spr_player_jump_26.png</frame>
-    <frame index="27">images\spr_player_jump_27.png</frame>
-    <frame index="28">images\spr_player_jump_28.png</frame>
-    <frame index="29">images\spr_player_jump_29.png</frame>
   </frames>
 </sprite>

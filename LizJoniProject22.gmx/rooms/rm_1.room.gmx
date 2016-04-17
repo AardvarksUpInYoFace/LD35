@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_controller" x="544" y="992" name="inst_FC6912E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="608" y="1056" name="inst_AEFC5DF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="608" y="864" name="inst_AEFC5DF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="608" y="1120" name="inst_4CED130B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="800" y="1120" name="inst_1D109215" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="928" y="1120" name="inst_A6FED809" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

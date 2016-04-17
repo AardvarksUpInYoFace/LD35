@@ -58,6 +58,34 @@ if (global.checkpointR == room) //checkpoint system
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>541</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_sprite_set</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>5</kind>
+            <sprite>spr_player_land</sprite>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>59</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="0">
       <action>
@@ -249,6 +277,44 @@ else
 }
 
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Animation :D
+
+
+
+if(place_meeting(x, y+2,obj_block)) &amp;&amp; sprite_index == spr_player_jump{ // are you touching the floor?
+sprite_index = spr_player_land
+image_speed = 1;
+}
+
+if image_index == 59 sprite_index = spr_player_idle image_speed = 0;
+
+if(!place_meeting(x, y+7,obj_block)){
+    image_speed = 1
+    sprite_index = spr_player_jump
+    if image_index == 19 image_speed = 0
+    }
+
+
 </string>
           </argument>
         </arguments>

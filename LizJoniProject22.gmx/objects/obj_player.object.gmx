@@ -32,17 +32,18 @@ hsp=0;      // horizontal speed
 vsp=0;      // vertical speed
 
 // defunct variables for old shifting system
-shapeshift = 0; // value between 0 and 42
+shapeshift = 0; // value between 0 and 41
 shapeshift_cd = 2/3;
 can_shift = true;
 can_shift_cd = false;
 
-
-acc_max = 0.7; //value of accelartion increasing rate of speed increase
-acc_jump = 0.3 // acc whilst jumping (restricts movement)
+// defunct(ish) acceleration variables
+acc_max = 3; //value of accelartion increasing rate of speed increase
+acc_min = 2;
+acc_jump = 0.4 // acc whilst jumping (restricts movement)
 
 jumpspeed= 8; //the max speed of jumping
-movespeed = 6; // the max speed of moving
+movespeed = 7; // the max speed of moving
 
 
 if (global.checkpointR == room) //checkpoint system
@@ -103,8 +104,6 @@ if (global.checkpointR == room) //checkpoint system
             <kind>1</kind>
             <string>/// Player Movement
 
-
-
 //input keys
 right = keyboard_check(ord("D"))
 left = -keyboard_check(ord("A"))
@@ -116,23 +115,24 @@ move = left + right // will be a value between -1 and 1
 if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
     vsp = jump * -jumpspeed // if so you can jump!  
     if jump == 1 audio_play_sound(snd_jump,3,false) // play jump sound
-    
     }
     
 
     
-if !place_meeting(x, y+1, obj_block) acc =  acc_jump; // are you in the air?
-else acc = acc_max; // if so decrease the value of acceleration 
+//if !place_meeting(x, y+1, obj_block) acc =  acc_jump; // are you in the air?
+//else 
+acc = acc_max; // if so decrease the value of acceleration 
                 //(slows change in direction of movement)
-
-
 
 hsp += move * acc // calculate horizonatal speed
 
-if hsp &gt; 0 hsp -= acc * log10(1 + hsp) ; // calculate drag on movement
-if hsp &lt; 0 hsp += acc * log10(1 + abs(hsp)); // both directions
+if hsp &gt; 0 hsp -= acc_min * log10(1+hsp) // calculate drag on movement
+if hsp &lt; 0 hsp += acc_min * log10(1+abs(hsp))// both directions
+
 
 if(hsp &gt; movespeed) hsp = movespeed; // cap max speed
+if(hsp &lt; -movespeed) hsp = - movespeed;
+
 
 
 if (vsp &lt;10) vsp +=grav; //if not at max grav then increase downward vsp
@@ -154,6 +154,21 @@ if(place_meeting(x,y+vsp,obj_block)){   // same deal but vertically
 
 x+=hsp  //add our speed to our literal co-ordinates.
 y+=vsp
+
+/*
+if (place_meeting(x, y+2,obj_block)) {
+hsp = move * movespeed // calculate horizonatal speed  
+current_speed = hsp
+
+}
+ 
+else{
+    if hsp &gt; 0 hsp = current_speed + (move * movespeed) - acc_jump
+    if hsp == 0 hsp = (move* movespeed)
+    if hsp &lt; 0 hsp = current_speed + (move* movespeed) + acc_jump 
+    }
+*/
+
 </string>
           </argument>
         </arguments>

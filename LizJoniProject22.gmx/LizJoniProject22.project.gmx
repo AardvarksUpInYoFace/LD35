@@ -223,6 +223,8 @@
         <object>objects\obj_blockRightUnoDoz</object>
         <object>objects\obj_rev_blockRightUnoDos</object>
       </objects>
+      <object>objects\obj_blockSpike</object>
+      <object>objects\_</object>
     </objects>
     <objects name="Main Menu Buttons">
       <object>objects\obj_playButton</object>

@@ -226,7 +226,7 @@
         <object>objects\obj_rev_blockRightUnoDos</object>
       </objects>
       <object>objects\obj_blockSpike</object>
-      <object>objects\_</object>
+      <object>objects\obj_rev_blockSpike</object>
     </objects>
     <objects name="Main Menu Buttons">
       <object>objects\obj_playButton</object>
@@ -246,6 +246,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
+    <room>rooms\rm_3</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_1</room>
@@ -253,7 +254,6 @@
     <room>rooms\rm_4</room>
     <room>rooms\rm_5</room>
     <room>rooms\rm_6</room>
-    <room>rooms\rm_3</room>
     <room>rooms\rm_end</room>
   </rooms>
   <help>

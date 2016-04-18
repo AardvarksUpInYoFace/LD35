@@ -56,7 +56,7 @@
     <instance objName="obj_upBlockUnoUno" x="768" y="864" name="inst_C595A0D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="640" y="800" name="inst_11BB87EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="640" y="784" name="inst_B1AE07B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ob_blockUpUnoDos" x="896" y="832" name="inst_4A9865B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_blockUpUnoDos" x="916" y="832" name="inst_4A9865B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockUpUnoUno" x="1008" y="752" name="inst_B766A6C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockUpUnoUno" x="1120" y="704" name="inst_FC2414F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockUpUnoUno" x="1232" y="656" name="inst_ECE0F2DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

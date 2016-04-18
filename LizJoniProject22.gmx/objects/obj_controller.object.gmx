@@ -35,6 +35,26 @@ global.realm_value = 0; // a value between 0 and 60 representing
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>531</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_fullscreen</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>2</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -83,17 +103,23 @@ background_alpha[1] = 1 - global.realm_value/60
     <event eventtype="9" enumb="82">
       <action>
         <libid>1</libid>
-        <id>331</id>
+        <id>224</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_restart_game</functionname>
+        <functionname>action_another_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_menu</room>
+          </argument>
+        </arguments>
       </action>
     </event>
     <event eventtype="9" enumb="81">
@@ -121,17 +147,23 @@ background_alpha[1] = 1 - global.realm_value/60
     <event eventtype="9" enumb="27">
       <action>
         <libid>1</libid>
-        <id>332</id>
+        <id>224</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_end_game</functionname>
+        <functionname>action_another_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>rm_menu</room>
+          </argument>
+        </arguments>
       </action>
     </event>
   </events>

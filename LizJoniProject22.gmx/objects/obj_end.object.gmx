@@ -27,10 +27,10 @@
             <kind>1</kind>
             <string>///Text Drawer
 draw_set_colour(c_black)
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_font(fnt_zerosTitle)
-draw_text(540,100,"All levels complete")
-draw_text(540,300,"Thank you for playing")
+draw_text(520,100,"All levels complete")
+draw_text(520,300,"Thank you for playing")
 </string>
           </argument>
         </arguments>

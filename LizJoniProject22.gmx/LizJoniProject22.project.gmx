@@ -161,6 +161,10 @@
           <sprite>sprites\spr_mask_blockRightUnoDoz59</sprite>
         </sprites>
       </sprites>
+      <sprites name="Barriers">
+        <sprite>sprites\spr_crossBarrier</sprite>
+        <sprite>sprites\spr_rev_crossBarrier</sprite>
+      </sprites>
     </sprites>
     <sprites name="Miscellaneous">
       <sprite>sprites\spr_finishpoint</sprite>
@@ -227,6 +231,10 @@
       <object>objects\obj_keyWAD</object>
       <object>objects\obj_keyK</object>
       <object>objects\obj_bgpillars</object>
+    </objects>
+    <objects name="Barriers">
+      <object>objects\obj_crossBarrier</object>
+      <object>objects\onj_rev_crossBarrier</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -145,7 +145,6 @@
     <instance objName="obj_buttBlockDarkLight" x="288" y="960" name="inst_5A2E8A53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockSpike" x="544" y="544" name="inst_0966BEA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockSpike" x="608" y="544" name="inst_703C753F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_83E86ADA" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="obj_blockSpike" x="672" y="768" name="inst_723ED46C" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockLightDark" x="672" y="736" name="inst_8AAE98EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="512" y="960" name="inst_F78C0C9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -160,7 +159,6 @@
     <instance objName="obj_blockDarkLight" x="736" y="224" name="inst_D4C79D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="736" y="160" name="inst_00A1F2A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="736" y="96" name="inst_8896F070" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="0" name="inst_D51F9AB2" locked="0" code="" scaleX="0" scaleY="0" colour="0" rotation="0"/>
     <instance objName="obj_blockLightDark" x="96" y="320" name="inst_915997AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockLightDark" x="160" y="320" name="inst_232655D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockLightDark" x="224" y="352" name="inst_79153747" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

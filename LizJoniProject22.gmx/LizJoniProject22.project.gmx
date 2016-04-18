@@ -26,7 +26,6 @@
       <sprite>sprites\spr_buttBlockLightDark</sprite>
       <sprites name="Up Spirtes">
         <sprite>sprites\spr_blockUpUnoUno</sprite>
-        <sprite>sprites\spr_blockUpUnoDos</sprite>
         <sprite>sprites\spr_rev_blockUpUnoDos</sprite>
         <sprite>sprites\spr_rev_blockUpUnoUno</sprite>
         <sprite>sprites\spr_rev_blockSpike</sprite>
@@ -97,9 +96,11 @@
       </sprites>
       <sprites name="Right Sprites">
         <sprite>sprites\spr_blockRightUnoUno</sprite>
+        <sprite>sprites\spr_blockUpUnoDos</sprite>
         <sprite>sprites\spr_blockRightUnoDoz</sprite>
         <sprite>sprites\spr_rev_blockRightUnoDos</sprite>
         <sprite>sprites\spr_phasePlatform</sprite>
+        <sprite>sprites\spr_mask_phase</sprite>
         <sprites name="Masks">
           <sprite>sprites\spr_mask_blockRightUnoDoz0</sprite>
           <sprite>sprites\spr_mask_blockRightUnoDoz1</sprite>
@@ -230,6 +231,7 @@
       </objects>
       <object>objects\obj_blockSpike</object>
       <object>objects\obj_rev_blockSpike</object>
+      <object>objects\obj_phasePlatform</object>
     </objects>
     <objects name="Main Menu Buttons">
       <object>objects\obj_playButton</object>
@@ -271,11 +273,15 @@
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
+    <room>rooms\rm_3</room>
     <room>rooms\rm_4</room>
     <room>rooms\rm_5</room>
     <room>rooms\rm_6</room>
     <room>rooms\rm_7</room>
-    <room>rooms\rm_3</room>
+    <room>rooms\rm_9</room>
+    <room>rooms\rm_10</room>
+    <room>rooms\rm_11</room>
+    <room>rooms\rm_12</room>
     <room>rooms\rm_end</room>
   </rooms>
   <help>

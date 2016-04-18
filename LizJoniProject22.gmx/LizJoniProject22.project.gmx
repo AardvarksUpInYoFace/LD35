@@ -247,18 +247,35 @@
       <object>objects\obj_crossBarrier</object>
       <object>objects\onj_rev_crossBarrier</object>
     </objects>
+    <objects name="Level Select Buttons">
+      <object>objects\obj_rmLevel_1</object>
+      <object>objects\obj_rmLevel_2</object>
+      <object>objects\obj_rmLevel_3</object>
+      <object>objects\obj_rmLevel_4</object>
+      <object>objects\obj_rmLevel_5</object>
+      <object>objects\obj_rmLevel_6</object>
+      <object>objects\obj_rmLevel_7</object>
+      <object>objects\obj_rmLevel_8</object>
+      <object>objects\obj_rmLevel_9</object>
+      <object>objects\obj_rmLevel_10</object>
+      <object>objects\obj_rmLevel_11</object>
+      <object>objects\obj_rmLevel_12</object>
+      <object>objects\obj_rmLevel_13</object>
+      <object>objects\obj_rmLevel_14</object>
+      <object>objects\obj_rmLevel_15</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
-    <room>rooms\rm_7</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_1</room>
     <room>rooms\rm_2</room>
-    <room>rooms\rm_3</room>
     <room>rooms\rm_4</room>
     <room>rooms\rm_5</room>
     <room>rooms\rm_6</room>
+    <room>rooms\rm_7</room>
+    <room>rooms\rm_3</room>
     <room>rooms\rm_end</room>
   </rooms>
   <help>

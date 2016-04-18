@@ -52,6 +52,21 @@
   </views>
   <instances>
     <instance objName="obj_backtomain" x="288" y="1344" name="inst_477455FE" locked="0" code="" scaleX="1.375" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_1" x="576" y="544" name="inst_B30EDB13" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_2" x="768" y="544" name="inst_3927541D" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_3" x="960" y="544" name="inst_0C78885F" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_4" x="1152" y="544" name="inst_3823F7D9" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_5" x="1344" y="544" name="inst_9385AA83" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_6" x="576" y="704" name="inst_8CD345B2" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_7" x="768" y="704" name="inst_E77D7F81" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_8" x="960" y="704" name="inst_50A41FFB" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_9" x="1152" y="704" name="inst_552C366A" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_10" x="1344" y="704" name="inst_3EB7FBF0" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_11" x="576" y="864" name="inst_D8F180A8" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_12" x="768" y="864" name="inst_2D5BF7A4" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_13" x="960" y="864" name="inst_2EEA75CF" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_14" x="1152" y="864" name="inst_71A8887C" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rmLevel_15" x="1344" y="864" name="inst_4362F86D" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

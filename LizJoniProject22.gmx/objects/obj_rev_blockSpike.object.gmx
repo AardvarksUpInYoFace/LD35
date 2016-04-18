@@ -133,7 +133,7 @@ if global.realm == 2 &amp;&amp; image_index != 59 {image_index +=1}
             <kind>1</kind>
             <string>/// Player Death
 
-if image_index &gt; 20 &amp;&amp; place_meeting(x,y, obj_player){
+if image_index &gt; 20 &amp;&amp; place_meeting(x,y-2, obj_player){
 
 if (global.checkpointR != 0)
 {

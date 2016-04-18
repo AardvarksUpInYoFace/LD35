@@ -3,9 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions>
-    <extension index="0">extensions\Free Shaders</extension>
-  </NewExtensions>
+  <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_song_1</sound>
     <sound>sound\snd_song_2</sound>
@@ -22,6 +20,10 @@
       <sprite>sprites\spr_player_entry</sprite>
     </sprites>
     <sprites name="Blocks">
+      <sprite>sprites\spr_blockDarkLight</sprite>
+      <sprite>sprites\spr_buttblockDarkLight</sprite>
+      <sprite>sprites\spr_blockLightDark</sprite>
+      <sprite>sprites\spr_buttBlockLightDark</sprite>
       <sprites name="Up Spirtes">
         <sprite>sprites\spr_blockUpUnoUno</sprite>
         <sprite>sprites\spr_blockUpUnoDos</sprite>
@@ -169,8 +171,6 @@
     <sprites name="Miscellaneous">
       <sprite>sprites\spr_finishpoint</sprite>
       <sprite>sprites\spr_checkpoint</sprite>
-      <sprite>sprites\spr_blockDarkLight</sprite>
-      <sprite>sprites\spr_blockLightDark</sprite>
       <sprite>sprites\spr_background</sprite>
       <sprite>sprites\spr_keyWAD</sprite>
       <sprite>sprites\spr_keyK</sprite>
@@ -207,7 +207,9 @@
     <objects name="Blocks">
       <object>objects\obj_block</object>
       <object>objects\obj_blockLightDark</object>
+      <object>objects\obj_buttBlockLightDark</object>
       <object>objects\obj_blockDarkLight</object>
+      <object>objects\obj_buttBlockDarkLight</object>
       <objects name="Up Blocks">
         <object>objects\obj_blockUp</object>
         <object>objects\ob_blockUpUnoDos</object>
@@ -239,6 +241,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
+    <room>rooms\rm_5</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_levelSelect</room>
     <room>rooms\rm_1</room>

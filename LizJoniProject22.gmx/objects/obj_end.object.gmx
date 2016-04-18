@@ -26,18 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>///Text Drawer
-
-draw_set_colour(c_gray)
+draw_set_colour(c_black)
 draw_set_halign(fa_center);
 draw_set_font(fnt_zerosTitle)
-draw_text(530,100,"Phase Shift")    //sets draw stuff then writes Phase Shift
-
-/*
-draw_set_font(fnt_zerosMenu)
-draw_text(500, 400, "Play");
-draw_text(500,500, "Level Select")
-draw_text(500,600, "Quit");
-
+draw_text(540,100,"All levels complete")
+draw_text(540,300,"Thank you for playing")
 </string>
           </argument>
         </arguments>

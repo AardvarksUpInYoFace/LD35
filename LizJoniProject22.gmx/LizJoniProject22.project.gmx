@@ -181,6 +181,7 @@
       <sprite>sprites\spr_play</sprite>
       <sprite>sprites\spr_levelSelect</sprite>
       <sprite>sprites\spr_quit</sprite>
+      <sprite>sprites\spr_backtomain</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -200,6 +201,7 @@
       <object>objects\obj_musicController</object>
       <object>objects\obj_levelSelect</object>
       <object>objects\obj_deathController</object>
+      <object>objects\obj_end</object>
     </objects>
     <object>objects\obj_player</object>
     <object>objects\obj_checkpoint</object>
@@ -230,6 +232,7 @@
       <object>objects\obj_playButton</object>
       <object>objects\obj_levelSelectButton</object>
       <object>objects\obj_quitButton</object>
+      <object>objects\obj_backtomain</object>
     </objects>
     <objects name="Misc">
       <object>objects\obj_keyWAD</object>
@@ -249,7 +252,9 @@
     <room>rooms\rm_2</room>
     <room>rooms\rm_4</room>
     <room>rooms\rm_5</room>
+    <room>rooms\rm_6</room>
     <room>rooms\rm_3</room>
+    <room>rooms\rm_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

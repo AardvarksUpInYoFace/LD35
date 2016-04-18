@@ -79,7 +79,6 @@ level_end = false;
 
 is_jumping = false;
 
-
 if (global.checkpointR == room) //checkpoint system
 {
     x = global.checkpointx;
@@ -152,9 +151,10 @@ if(place_meeting(x, y+2,obj_block)){ // are you touching the floor?
         audio_play_sound(snd_jump,3,false) // play jump sound
         is_jumping = true;
         }
-        }
+    }
    
     hsp = move * movespeed // calculate horizonatal speed
+
     
  /*   
     if hsp &gt; 0 hsp -= acc_min * log10(1+hsp) // calculate drag on movement
@@ -315,7 +315,7 @@ if level_end == false &amp;&amp; sprite_index != spr_player_entry {
 
 image_angle = 0;
 
-if(place_meeting(x, y+2,obj_block)) &amp;&amp; sprite_index == spr_player_jump{ // are you touching the floor?
+if(place_meeting(x, y+2,obj_block) &amp;&amp; sprite_index = spr_player_jump){ // are you touching the floor?
 sprite_index = spr_player_land
 image_speed = 1;
 }

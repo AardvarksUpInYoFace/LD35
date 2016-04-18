@@ -119,9 +119,9 @@
     <instance objName="obj_rev_blockUpUnoUno" x="1984" y="960" name="inst_89143D6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_finishpoint" x="1984" y="864" name="inst_C0BFF0B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="1856" y="1536" name="inst_BAFFE4A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rev_blockUpUnoDos" x="320" y="1248" name="inst_72491108" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bgpillars" x="-320" y="608" name="inst_0CB43D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bgpillars" x="928" y="672" name="inst_910814A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rev_blockUpUnoDos" x="320" y="1280" name="inst_72491108" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bgpillars" x="-320" y="640" name="inst_0CB43D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bgpillars" x="832" y="672" name="inst_910814A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="1856" y="1056" name="inst_63FE0DBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockLightDark" x="1920" y="1024" name="inst_73BE8B33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockLightDark" x="1984" y="992" name="inst_9FF60AAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -133,6 +133,7 @@
     <instance objName="obj_blockLightDark" x="1920" y="1280" name="inst_A697DF39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_buttBlockLightDark" x="1920" y="1344" name="inst_1F74787D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_buttBlockLightDark" x="1984" y="1184" name="inst_8312B7D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_checkpoint" x="1152" y="800" name="inst_5C0F24C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

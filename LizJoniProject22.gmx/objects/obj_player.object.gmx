@@ -317,6 +317,7 @@ image_angle = 0;
 
 if(place_meeting(x, y+2,obj_block) &amp;&amp; sprite_index = spr_player_jump){ // are you touching the floor?
 sprite_index = spr_player_land
+image_index = 8;
 image_speed = 1;
 }
 

@@ -52,18 +52,18 @@
   </views>
   <instances>
     <instance objName="obj_end" x="0" y="0" name="inst_E7D8F26F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_deathController" x="0" y="768" name="inst_C3A52259" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockRightUnoUno" x="736" y="1440" name="inst_8BAE277E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockRightUnoUno" x="800" y="1440" name="inst_A9A751DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockRightUnoUno" x="864" y="1440" name="inst_EAF5BC3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockRightUnoUno" x="928" y="1440" name="inst_990286F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockRightUnoUno" x="992" y="1440" name="inst_9138CC30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockRightUnoUno" x="1056" y="1440" name="inst_843222A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockRightUnoUno" x="1120" y="1440" name="inst_7D3527F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_backtomain" x="896" y="1344" name="inst_DB074174" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="896" y="1312" name="inst_52E4D7C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_checkpoint" x="896" y="1344" name="inst_A6B1E6D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bgpillars" x="224" y="768" name="inst_24EA9999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deathController" x="-32" y="1536" name="inst_C3A52259" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="832" y="1440" name="inst_8BAE277E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="896" y="1440" name="inst_A9A751DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="960" y="1440" name="inst_EAF5BC3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="1024" y="1440" name="inst_990286F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="1088" y="1440" name="inst_9138CC30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="1152" y="1440" name="inst_843222A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="1216" y="1440" name="inst_7D3527F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_backtomain" x="1024" y="1344" name="inst_DB074174" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="1024" y="1344" name="inst_52E4D7C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_checkpoint" x="1024" y="1376" name="inst_A6B1E6D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bgpillars" x="288" y="672" name="inst_24EA9999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_colour(c_black)
-draw_set_halign(fa_left);
+draw_set_halign(fa_center);
 draw_set_font(fnt_zerosTitle)
-draw_text(520,100,"Level Select")    //sets draw stuff then writes Phase Shift
+draw_text(room_width/2,100,"Level Select")    //sets draw stuff then writes Phase Shift
 </string>
           </argument>
         </arguments>

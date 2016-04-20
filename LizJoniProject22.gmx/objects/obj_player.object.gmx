@@ -191,7 +191,8 @@ if(place_meeting(x+hsp,y,obj_block)){       //are we about to hit a will
 
 if(place_meeting(x,y+vsp,obj_block)){   // same deal but vertically
     while(!place_meeting(x,y+sign(vsp),obj_block)){
-        y +=sign(vsp)
+        if vsp != 0 y +=sign(vsp);
+        else y += 1;
         }
         vsp=0
     } 

@@ -199,7 +199,6 @@
     <instance objName="obj_buttBlockLightDark" x="3264" y="1120" name="inst_A46FCCBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_buttBlockLightDark" x="3264" y="1168" name="inst_206E45F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_checkpoint" x="1856" y="576" name="inst_DF54F3D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockSpike" x="3264" y="848" name="inst_752C5B4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_buttBlockLightDark" x="2608" y="784" name="inst_D61A9678" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_buttBlockLightDark" x="2608" y="848" name="inst_F72D7867" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_buttBlockLightDark" x="2608" y="896" name="inst_C9F909AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -224,14 +223,12 @@
     <instance objName="obj_blockDarkLight" x="1616" y="704" name="inst_94AB6DDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="1616" y="656" name="inst_DBFCF3C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="1616" y="608" name="inst_2B4008C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rev_blockSpike" x="2960" y="720" name="inst_E6FFAD08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockRightUnoDos" x="3680" y="688" name="inst_F06E0E7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockRightUnoDoz" x="4064" y="720" name="inst_BF41C2AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockRightUnoDos" x="4528" y="800" name="inst_D9781D36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockUpUnoDos" x="4704" y="672" name="inst_9EE7E6B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockUpUnoDos" x="4768" y="672" name="inst_6D1D878C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_rev_blockUpUnoDos" x="4832" y="672" name="inst_C949BF52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blockSpike" x="5056" y="624" name="inst_F864E49C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="5312" y="592" name="inst_113D3ED5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="5440" y="560" name="inst_D9D4B4C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_finishpoint" x="5440" y="496" name="inst_BF760748" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -296,10 +293,17 @@
     <instance objName="obj_blockDarkLight" x="1856" y="1376" name="inst_2DD4F6A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_blockDarkLight" x="1856" y="1424" name="inst_E481512E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_upBlockUnoUno" x="3456" y="768" name="inst_4CD4AFC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bgpillars" x="-96" y="880" name="inst_CC1CA3C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bgpillars" x="1312" y="992" name="inst_72930157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bgpillars" x="-112" y="592" name="inst_CC1CA3C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bgpillars" x="1264" y="768" name="inst_72930157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bgpillars" x="2800" y="880" name="inst_A51471C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bgpillars" x="4512" y="848" name="inst_CCC9054B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rev_blockRightUnoUno" x="2960" y="704" name="inst_D5DF20E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="2960" y="672" name="inst_A78370E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="3264" y="864" name="inst_B6E2745A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rev_spikes" x="3264" y="832" name="inst_D007A224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockLightDark" x="3264" y="960" name="inst_4E472763" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rev_spikes" x="5088" y="608" name="inst_66259274" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blockRightUnoUno" x="5088" y="640" name="inst_609260E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

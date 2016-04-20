@@ -24,7 +24,7 @@
       <sprite>sprites\spr_buttblockDarkLight</sprite>
       <sprite>sprites\spr_blockLightDark</sprite>
       <sprite>sprites\spr_buttBlockLightDark</sprite>
-      <sprites name="Up Spirtes">
+      <sprites name="Up Sprites">
         <sprite>sprites\spr_blockUpUnoUno</sprite>
         <sprite>sprites\spr_blockUpUnoDos</sprite>
         <sprite>sprites\spr_rev_blockUpUnoDos</sprite>
@@ -97,6 +97,7 @@
       </sprites>
       <sprites name="Right Sprites">
         <sprite>sprites\spr_blockRightUnoUno</sprite>
+        <sprite>sprites\spr_rev_blockUnoUno</sprite>
         <sprite>sprites\spr_blockRightUnoDoz</sprite>
         <sprite>sprites\spr_rev_blockRightUnoDos</sprite>
         <sprite>sprites\spr_phasePlatform</sprite>
@@ -163,10 +164,16 @@
           <sprite>sprites\spr_mask_blockRightUnoDoz59</sprite>
         </sprites>
       </sprites>
-      <sprites name="Barriers">
-        <sprite>sprites\spr_crossBarrier</sprite>
-        <sprite>sprites\spr_rev_crossBarrier</sprite>
-      </sprites>
+    </sprites>
+    <sprites name="Spikes">
+      <sprite>sprites\spr_spikes</sprite>
+      <sprite>sprites\spr_downspikes</sprite>
+      <sprite>sprites\spr_rev_spikes</sprite>
+      <sprite>sprites\spr_rev_downspikes</sprite>
+    </sprites>
+    <sprites name="Barriers">
+      <sprite>sprites\spr_crossBarrier</sprite>
+      <sprite>sprites\spr_rev_crossBarrier</sprite>
     </sprites>
     <sprites name="Miscellaneous">
       <sprite>sprites\spr_finishpoint</sprite>
@@ -174,17 +181,17 @@
       <sprite>sprites\spr_background</sprite>
       <sprite>sprites\spr_keyWAD</sprite>
       <sprite>sprites\spr_keyK</sprite>
-    </sprites>
-    <sprite>sprites\spr_blueDiamond</sprite>
-    <sprite>sprites\spr_orangeDiamond</sprite>
-    <sprites name="Level Select">
-      <sprite>sprites\spr_levelSelectButtons</sprite>
+      <sprite>sprites\spr_blueDiamond</sprite>
+      <sprite>sprites\spr_orangeDiamond</sprite>
     </sprites>
     <sprites name="Menu Stuff">
       <sprite>sprites\spr_play</sprite>
       <sprite>sprites\spr_levelSelect</sprite>
       <sprite>sprites\spr_quit</sprite>
       <sprite>sprites\spr_backtomain</sprite>
+      <sprites name="Level Select">
+        <sprite>sprites\spr_levelSelectButtons</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -225,27 +232,35 @@
       <objects name="Right Blocks">
         <object>objects\obj_blockRight</object>
         <object>objects\obj_blockRightUnoUno</object>
+        <object>objects\obj_rev_blockRightUnoUno</object>
         <object>objects\obj_blockRightUnoDoz</object>
         <object>objects\obj_rev_blockRightUnoDos</object>
       </objects>
       <object>objects\obj_blockSpike</object>
       <object>objects\obj_rev_blockSpike</object>
     </objects>
-    <objects name="Main Menu Buttons">
-      <object>objects\obj_playButton</object>
-      <object>objects\obj_levelSelectButton</object>
-      <object>objects\obj_quitButton</object>
-      <object>objects\obj_backtomain</object>
+    <objects name="Spikes">
+      <object>objects\object_parentspike</object>
+      <object>objects\obj_spikes</object>
+      <object>objects\obj_downspikes</object>
+      <object>objects\obj_rev_spikes</object>
+      <object>objects\obj_rev_downspikes</object>
+    </objects>
+    <objects name="Barriers">
+      <object>objects\obj_barrier</object>
+      <object>objects\obj_crossBarrier</object>
+      <object>objects\onj_rev_crossBarrier</object>
     </objects>
     <objects name="Misc">
       <object>objects\obj_keyWAD</object>
       <object>objects\obj_keyK</object>
       <object>objects\obj_bgpillars</object>
     </objects>
-    <objects name="Barriers">
-      <object>objects\obj_barrier</object>
-      <object>objects\obj_crossBarrier</object>
-      <object>objects\onj_rev_crossBarrier</object>
+    <objects name="Main Menu Buttons">
+      <object>objects\obj_playButton</object>
+      <object>objects\obj_levelSelectButton</object>
+      <object>objects\obj_quitButton</object>
+      <object>objects\obj_backtomain</object>
     </objects>
     <objects name="Level Select Buttons">
       <object>objects\obj_rmLevel_1</object>
